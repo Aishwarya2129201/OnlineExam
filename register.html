@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>                                                                                                                                                                       <title>Register</title>
+
+<body>
+    <div class="container">
+        <div class="card mt-4 shadow">
+            <div class="card-header bg-primary text-white">
+                <h2>User Registration</h2>
+                <div class="row my-4">
+                    <div class="col">
+                        Create an Account-General Details
+                        <br>* indicates mandatory fields
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="alert alert-danger d-none" id="err"></div>
+                
+                <form class="ex-form">
+    
+                    <div class="row my-4">
+                        <div class="col">
+                            *Name:<input type="text" class="form-control" id="fullname" placeholder="Full Name"/>
+                            Enter the full name as it appears on your 10th marks card.
+                        </div>
+                    </div>
+
+                    <div class="row my-4">
+                        <div class="col">
+                            *Date of Birth:<input type="date" class="form-control" id="dob" placeholder="Date of Birth"/>
+                            Enter the date of birth as it appears on your 10th marks card.
+                        </div>
+                    </div>
+
+                    <!-- <div class="row my-4">
+                        <div class="col">
+                            <input type="text" class="form-control" id="parentname" placeholder="Parent's Name"/>
+                        </div>
+                    </div> -->
+
+                    <div class="row my-4">
+                        <div class="col">
+                          *Gender:<br>
+                          <input type="radio" name="gender" id="gender_1" class="form-check-input" value="female" />Female
+                          <input type="radio" name="gender" id="gender_2" class="form-check-input" value="male"/>Male
+                          <input type="radio" name="gender" id="gender_3" class="form-check-input" value="male"/>Others
+                        </div>
+                    </div>
+                    
+
+                    <div class="row my-4">
+                        <div class="col">
+                            *Email:
+                            <input type="text" class="form-control" id="email" placeholder="Email"/>
+                        </div>
+                    </div>
+
+                    <div class="row my-4">
+                        <div class="col">
+                            *Mobile number:
+                            <input type="text" class="form-control" id="phone" placeholder="Mobile number"/>
+                            Mobile number should be of 10 digits e.g., 9880826171
+                        </div>
+                    </div>
+
+                    <!-- <div class="row my-4">
+                        <div class="col">
+                            <select id="gender" class="form-select">
+                                <option value="">Select Gender</option>
+                                <option value="Female">Female</option>
+                                <option value="Male">Male</option>
+                                <option value="Others">Others</option>   
+                            </select>
+                        </div>
+                    </div> -->
+
+                    
+
+                    <!-- <div class="row my-4">
+                        <div class="col"> 
+                            <div class="row my-4">
+                                <div class="col">
+                                    <input type="checkbox" name="agree" id="agree" class="form-check-input" value="1"/> I agree
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="row my-4">
+                        <div class="col text-end">
+                            <button type="submit" id="btn-submit" class="btn btn-primary">Continue</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="userlist">
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="register.js"></script>
+
+</html>
