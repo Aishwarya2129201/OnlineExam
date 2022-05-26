@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>MULTISTEP-REGISTRATION</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="myreg.css">
+    <!--<style>
+        div.form-group
+        {
+            overflow: scroll;
+        }
+    </style>-->
+   <!---- <style>
+        ::-webkit-scrollbar {
+                width: 10px;
+            }
+
+/* Track */
+         ::-webkit-scrollbar-track {
+             background: #f1f1f1; 
+            }
+ 
+/* Handle */
+          ::-webkit-scrollbar-thumb {
+            background: #888; 
+          }
+
+/* Handle on hover */
+          ::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+          }
+    </style>-->
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+
+                <div class="multistep-container">
+
+                    <div class="mutistep-form-area">
+
+                        <!--start-->
+                        <div class="form-box">
+
+                             <ul class="active-button">
+                                 <li class="active">
+                                     <span class="round-btn">1</span>
+                                 </li>
+                                 <li>
+                                     <span class="round-btn">2</span>
+                                 </li>
+                                 <li>
+                                     <span class="round-btn">3</span>
+                                 </li>
+                             </ul>
+
+
+
+
+                        <h4>Personal Details</h4>
+
+                        <form action="">
+
+                            <div class="form-group">
+                                <label for="">First Name</label>
+                                <input type="text" name=""  placeholder="First Name" id="" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Last Name</label>
+                                <input type="text" name="" placeholder="Last Name" id="" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Date Of Birth</label>
+                                <input type="date" value=" "  name="" placeholder="D.O.B." id="" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Gender</label>
+                                <select class="custom-select myinput" name="class" id="class">
+                                    <option value="Select">Select</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="others">Others</option>
+                                </select>
+                               <!-- <input type="text" name="" id="" class="form-control">-->
+                            </div>
+                            <div class="button-row">
+                                <input type="button" value="Next" class="next">
+                            </div>
+                            
+                        </form>
+                     </div>
+                          
+
+                    <div class="form-box">
+                        <ul class="active-button">
+                            <li class="active">
+                                <span class="round-btn">1</span>
+                                <!--<span class="text">Personal Details</span>-->
+                            </li>
+                            <li class="active">
+                                <span class="round-btn">2</span>
+                                <!--<span class="text">Contact Details</span>-->
+                            </li>
+                            <li>
+                                <span class="round-btn">3</span>
+                                <!--<span class="text">Login Details</span>-->
+                            </li>
+                        </ul>
+
+                        
+
+                        <h4>Contact Details</h4>
+                        <form action="">
+
+                                <div class="form-group">
+                                    <label for="">Country</label>
+                                    <input type="text" name=""  placeholder="Country" id="" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">State</label>
+                                    <input type="text" name="" placeholder="State" id="" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Address</label>
+                                    <textarea id="address" class="form-control"></textarea>
+                                   <!---- <input type="text" name="" placeholder="Address" id="" class="form-control">-->
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Phone</label>
+                                    <input type="text" name=""  placeholder="Phone" id="" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Email</label>
+                                    <input type="text" name="" placeholder="Email" id="" class="form-control">
+                                </div>
+                                <div class="button-row">
+                                    <input type="button" value="Previous" class="previous">
+                                    <input type="button" value="Next" class="next">
+                                </div>
+
+                        </form>
+                     </div>
+
+                    <div class="form-box">
+                        <ul class="active-button">
+                            <li class="active">
+                                <span class="round-btn">1</span>
+                               <!--- <span class="text">Personal Details</span>-->
+                            </li>
+                            <li class="active">
+                                <span class="round-btn">2</span>
+                                <!--<span class="text">Contact Details</span>-->
+                            </li>
+                            <li class="active">
+                                <span class="round-btn">3</span>
+                              <!----  <span class="text">Login Details</span>-->
+                            </li>
+                        </ul>
+                           
+
+                        <h4>Educational Details</h4>
+                        <h5>10th Details</h5>
+                        <form action="">
+
+                                <div class="form-group">
+                                    <label for="">School</label>
+                                    <input type="text" name=""  placeholder="School" id="" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Board</label>
+                                    <input type="text" name="" placeholder="Board" id="" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Percentage</label>
+                                    <input type="text" name=""  placeholder="Percentage" id="" class="form-control">
+                                </div>
+
+                        
+                        <h5>12th Details</h5>
+                        <div class="form-group">
+                            <label for="">School</label>
+                            <input type="text" name=""  placeholder="School" id="" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Board</label>
+                            <input type="text" name="" placeholder="Board" id="" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Percentage</label>
+                            <input type="text" name=""  placeholder="Percentage" id="" class="form-control">
+                        </div>
+
+
+                        <h5>Btech Details</h5>
+                        <div class="form-group">
+                            <label for="">College/University</label>
+                            <select class="custom-select myinput" name="class" id="class">
+                            <option value="SIT" selected>Silicon Institute Of Technology</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Branch</label>
+                            <select class="custom-select myinput" name="class" id="class">
+                                <option value="Select">Select</option>
+                                <option value="CSE">CSE</option>
+                                <option value="ECE">ECE</option>
+                                <option value="EEE">EEE</option>
+                                <option value="EIE">EIE</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="">CGPA</label>
+                            <input type="text" name=""  placeholder="CGPA" id="" class="form-control">
+                        </div>
+                               
+                                <div class="button-row">
+                                    <input type="button" value="Previous" class="previous">
+                                    <input type="submit" value="Submit" class="submit">
+                                </div>
+                        </form>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function(){
+                     $(".multistep-container .form-box .button-row .next").click(function(){
+                         $(this).parents(".form-box").fadeOut('fast');
+                         $(this).parents(".form-box").next().fadeIn('fast');
+                     });
+                     $(".multistep-container .form-box .button-row .previous").click(function(){
+                         $(this).parents(".form-box").fadeOut('fast');
+                         $(this).parents(".form-box").prev().fadeIn('fast');
+                     });
+                 });
+                     
+    </script>
+</body>
+</html>
