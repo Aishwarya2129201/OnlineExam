@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="Quiz.css" type="text/css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <p class="header__sub">Subject</p>
+            <div class="timer">10:00</div>
+        </header>
+        <section class="sec">
+            <div class="sec-questions-box">
+                <div class="sec-questions">
+                    <p class="sec-questions__q">1. What is the best Smartphone</p>
+                    <div class="sec-questions__options">
+                        <div class="sec-questions__option">
+                            <input type="radio" class="option" id="op-1" name="ops">
+                            <label class="option-label" for="op-1">
+                                <span class="option-btn"></span>
+                                Apple
+                            </label>
+                        </div>
+                        <div class="sec-questions__option">
+                            <input type="radio" class="option" id="op-2" name="ops">
+                            <label class="option-label" for="op-2">
+                                <span class="option-btn"></span>
+                                Samsung
+                            </label>
+                        </div>
+                        <div class="sec-questions__option">
+                            <input type="radio" class="option" id="op-3" name="ops">
+                            <label class="option-label" for="op-3">
+                                <span class="option-btn"></span>
+                                MI
+                            </label>
+                        </div>
+                        <div class="sec-questions__option">
+                            <input type="radio" class="option" id="op-4" name="ops">
+                            <label class="option-label" for="op-4">
+                                <span class="option-btn"></span>
+                                Vivo
+                            </label>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="sec-questions-toggle">
+                    <div class="toggle-left">&larr;</div>
+                    <div class="toggle-right">&rarr;</div>
+                </div>
+            </div>
+            
+            <div class="sec-nav">
+                <div class="qlinks">
+                    <div class="qitem">
+                        <a class="qlink">1</a>
+                    </div>
+                    <div class="qitem">
+                        <a class="qlink">2</a>
+                    </div>
+                    <div class="qitem">
+                        <a class="qlink">3</a>
+                    </div>
+                    <div class="qitem">
+                        <a class="qlink">4</a>
+                    </div>
+                    <div class="qitem">
+                        <a class="qlink">5</a>
+                    </div>
+                    <div class="qitem">
+                        <a class="qlink">6</a>
+                    </div>
+                    <div class="qitem">
+                        <a class="qlink">7</a>
+                    </div>
+                    <div class="qitem">
+                        <a class="qlink">8</a>
+                    </div>
+                    <div class="qitem">
+                        <a class="qlink">9</a>
+                    </div>
+                    <div class="qitem">
+                        <a class="qlink">10</a>
+                    </div>
+                    <div class="qitem">
+                        <a class="qlink">11</a>
+                    </div>
+                    <div class="qitem">
+                        <a class="qlink">12</a>
+                    </div>
+                    <div class="qitem">
+                        <a class="qlink">13</a>
+                    </div>
+                    <div class="qitem">
+                        <a class="qlink">14</a>
+                    </div>
+                    <div class="qitem">
+                        <a class="qlink">15</a>
+                    </div>
+                    <div class="qitem">
+                        <a class="qlink">16</a>
+                    </div>
+                    <div class="qitem">
+                        <a class="qlink">17</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="footer">
+            <button class="btn btn--green">Submit</button>
+        </div>
+        <div class="popup">
+            <div class="popup-box">
+                <div class="popup-box-text">
+                    <p class="popup-text">Are You sure you want to submit?</p>
+                </div>
+                <div class="popup-btn">
+                    <button id='btn-confirm' class="btn btn--small">Confirm</button>
+                    <button id='btn-cancel' class="btn btn--small">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src='Quiz.js'></script>
+</body>
+</html>
